@@ -1,0 +1,31 @@
+body {
+  padding-top: 5rem;
+  background: black;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+audio {
+  display: block;
+  margin: auto;
+  opacity: .2;
+}
+
+img {
+  height: 250px;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  opacity: .6;
+  transition: 1s;
+}
+
+img:hover {
+  opacity: 1;
+  transition: 1s;
+}
