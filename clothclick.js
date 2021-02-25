@@ -74,6 +74,11 @@ function changeFuccboi(){
 	if (document.getElementById("fcb-img").src == "https://frankli-n.github.io/domestic-accessories/pics/fuccboi.png") {
 		document.getElementById("fcb-img").src = "https://frankli-n.github.io/domestic-accessories/pics/fuccboi2.png"
 	}
+
+	else if (document.getElementById("bb-img").src == "https://frankli-n.github.io/domestic-accessories/pics/fuccboi2.png") {
+		document.getElementById("bb-img").src = "https://frankli-n.github.io/domestic-accessories/pics/fuccboi3.png"
+	}
+
 	else {
 		document.getElementById("fcb-img").src = "https://frankli-n.github.io/domestic-accessories/pics/fuccboi.png"
 	}
