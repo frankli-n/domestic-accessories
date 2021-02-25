@@ -6,12 +6,43 @@
 //   document
 // })
 
-function changeImage(){
-	console.log(document.getElementById("a").src)
-	if (document.getElementById("a").src == "http://localhost:3002/pics/gymshark.png") {
-		document.getElementById("a").src = "http://localhost:3002/pics/gymshark-back.png"
+function changeGymShark(){
+	console.log(document.getElementById("gsk-img").src)
+	if (document.getElementById("gsk-img").src == "http://localhost:3002/pics/gymshark.png") {
+		document.getElementById("gsk-img").src = "http://localhost:3002/pics/gymshark-back.png"
 	}
 	else {
-		document.getElementById("a").src = "http://localhost:3002/pics/gymshark.png"
+		document.getElementById("gsk-img").src = "http://localhost:3002/pics/gymshark.png"
+	}
+}
+
+function changeBushBasha(){
+	console.log(document.getElementById("bb-img").src)
+	if (document.getElementById("bb-img").src == "http://localhost:3002/pics/d.png") {
+		document.getElementById("bb-img").src = "http://localhost:3002/pics/basha2.png"
+	}
+
+	else if (document.getElementById("bb-img").src == "http://localhost:3002/pics/basha2.png") {
+		document.getElementById("bb-img").src = "http://localhost:3002/pics/basha3.png"
+	}
+
+	else if (document.getElementById("bb-img").src == "http://localhost:3002/pics/basha3.png") {
+		document.getElementById("bb-img").src = "http://localhost:3002/pics/basha4.png"
+	}
+
+	else if (document.getElementById("bb-img").src == "http://localhost:3002/pics/basha4.png") {
+		document.getElementById("bb-img").src = "http://localhost:3002/pics/basha5.png"
+	}
+
+	else if (document.getElementById("bb-img").src == "http://localhost:3002/pics/basha5.png") {
+		document.getElementById("bb-img").src = "http://localhost:3002/pics/basha6.png"
+	}
+
+	else if (document.getElementById("bb-img").src == "http://localhost:3002/pics/basha6.png") {
+		document.getElementById("bb-img").src = "http://localhost:3002/pics/basha7.png"
+	}
+
+	else {
+		document.getElementById("bb-img").src = "http://localhost:3002/pics/d.png"
 	}
 }
