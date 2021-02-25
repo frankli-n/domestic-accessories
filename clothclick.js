@@ -76,3 +76,13 @@ function changeFuccboi(){
 		document.getElementById("fcb-img").src = "http://localhost:3000/pics/fuccboi.png"
 	}
 }
+
+function changeVoyageur(){
+	console.log(document.getElementById("vyg-img").src)
+	if (document.getElementById("vyg-img").src == "http://localhost:3000/pics/voyageur.png") {
+		document.getElementById("vyg-img").src = "http://localhost:3000/pics/voyageur2.png"
+	}
+	else {
+		document.getElementById("vyg-img").src = "http://localhost:3000/pics/voyageur.png"
+	}
+}
