@@ -10,6 +10,12 @@ function changeGymShark(){
 	if (document.getElementById("gsk-img").src == "https://frankli-n.github.io/domestic-accessories/pics/gymshark.png") {
 		document.getElementById("gsk-img").src = "https://frankli-n.github.io/domestic-accessories/pics/gymshark-back.png"
 	}
+
+	else if (document.getElementById("gsk-img").src == "https://frankli-n.github.io/domestic-accessories/pics/gymshark-back.png") {
+		document.getElementById("gsk-img").src = "https://frankli-n.github.io/domestic-accessories/pics/gymshark-back2.png"
+	}
+
+
 	else {
 		document.getElementById("gsk-img").src = "https://frankli-n.github.io/domestic-accessories/pics/gymshark.png"
 	}
