@@ -88,3 +88,13 @@ function changeVoyageur(){
 		document.getElementById("vyg-img").src = "https://frankli-n.github.io/domestic-accessories/pics/voyageur.png"
 	}
 }
+
+
+document.addEventListener('play', function(e){
+    var audios = document.getElementsByTagName('audio');
+    for(var i = 0, len = audios.length; i < len;i++){
+        if(audios[i] != e.target){
+            audios[i].pause();
+        }
+    }
+}, true);
