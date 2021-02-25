@@ -98,7 +98,6 @@ audio.session::-webkit-media-controls-panel{
   margin: auto;
   margin-bottom: 0px;
   margin-top: 100px;
-
 }
 
 
@@ -114,7 +113,7 @@ audio.session::-webkit-media-controls-panel{
 }
 
 .clothes, .title, .price, audio {
-  opacity: .6
+  opacity: .8
 }
 
 .clothes:hover, .title:hover, .price:hover, audio:hover {
