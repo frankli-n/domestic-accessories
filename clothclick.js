@@ -46,3 +46,33 @@ function changeBushBasha(){
 		document.getElementById("bb-img").src = "http://localhost:3002/pics/d.png"
 	}
 }
+
+function changeDudesWithoutProblems(){
+	console.log(document.getElementById("dwp-img").src)
+	if (document.getElementById("dwp-img").src == "http://localhost:3002/pics/e.png") {
+		document.getElementById("dwp-img").src = "http://localhost:3002/pics/dwp2.png"
+	}
+	else {
+		document.getElementById("dwp-img").src = "http://localhost:3002/pics/e.png"
+	}
+}
+
+function changeSession(){
+	console.log(document.getElementById("sss-img").src)
+	if (document.getElementById("sss-img").src == "http://localhost:3002/pics/session.png") {
+		document.getElementById("sss-img").src = "http://localhost:3002/pics/session2.png"
+	}
+	else {
+		document.getElementById("sss-img").src = "http://localhost:3002/pics/session.png"
+	}
+}
+
+function changeFuccboi(){
+	console.log(document.getElementById("fcb-img").src)
+	if (document.getElementById("fcb-img").src == "http://localhost:3002/pics/fuccboi.png") {
+		document.getElementById("fcb-img").src = "http://localhost:3002/pics/fuccboi2.png"
+	}
+	else {
+		document.getElementById("fcb-img").src = "http://localhost:3002/pics/fuccboi.png"
+	}
+}
