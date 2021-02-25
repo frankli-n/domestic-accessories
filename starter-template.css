@@ -121,6 +121,9 @@ audio.session::-webkit-media-controls-panel{
   transition: .5s;
 }
 
+.price:hover{ 
+  cursor: pointer; 
+}
 
 #end {
   height: 50px;
