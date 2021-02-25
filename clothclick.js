@@ -7,7 +7,6 @@
 // })
 
 function changeGymShark(){
-	console.log(document.getElementById("gsk-img").src)
 	if (document.getElementById("gsk-img").src == "https://frankli-n.github.io/domestic-accessories/pics/gymshark.png") {
 		document.getElementById("gsk-img").src = "https://frankli-n.github.io/domestic-accessories/pics/gymshark-back.png"
 	}
@@ -17,7 +16,6 @@ function changeGymShark(){
 }
 
 function changeBushBasha(){
-	console.log(document.getElementById("bb-img").src)
 	if (document.getElementById("bb-img").src == "https://frankli-n.github.io/domestic-accessories/pics/d.png") {
 		document.getElementById("bb-img").src = "https://frankli-n.github.io/domestic-accessories/pics/basha2.png"
 	}
