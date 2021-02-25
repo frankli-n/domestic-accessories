@@ -18,71 +18,71 @@ function changeGymShark(){
 
 function changeBushBasha(){
 	console.log(document.getElementById("bb-img").src)
-	if (document.getElementById("bb-img").src == "http://localhost:3000/pics/d.png") {
-		document.getElementById("bb-img").src = "http://localhost:3000/pics/basha2.png"
+	if (document.getElementById("bb-img").src == "https://frankli-n.github.io/domestic-accessories/pics/d.png") {
+		document.getElementById("bb-img").src = "https://frankli-n.github.io/domestic-accessories/pics/basha2.png"
 	}
 
-	else if (document.getElementById("bb-img").src == "http://localhost:3000/pics/basha2.png") {
-		document.getElementById("bb-img").src = "http://localhost:3000/pics/basha3.png"
+	else if (document.getElementById("bb-img").src == "https://frankli-n.github.io/domestic-accessories/pics/basha2.png") {
+		document.getElementById("bb-img").src = "https://frankli-n.github.io/domestic-accessories/pics/basha3.png"
 	}
 
-	else if (document.getElementById("bb-img").src == "http://localhost:3000/pics/basha3.png") {
-		document.getElementById("bb-img").src = "http://localhost:3000/pics/basha4.png"
+	else if (document.getElementById("bb-img").src == "https://frankli-n.github.io/domestic-accessories/pics/basha3.png") {
+		document.getElementById("bb-img").src = "https://frankli-n.github.io/domestic-accessories/pics/basha4.png"
 	}
 
-	else if (document.getElementById("bb-img").src == "http://localhost:3000/pics/basha4.png") {
-		document.getElementById("bb-img").src = "http://localhost:3000/pics/basha5.png"
+	else if (document.getElementById("bb-img").src == "https://frankli-n.github.io/domestic-accessories/pics/basha4.png") {
+		document.getElementById("bb-img").src = "https://frankli-n.github.io/domestic-accessories/pics/basha5.png"
 	}
 
-	else if (document.getElementById("bb-img").src == "http://localhost:3000/pics/basha5.png") {
-		document.getElementById("bb-img").src = "http://localhost:3000/pics/basha6.png"
+	else if (document.getElementById("bb-img").src == "https://frankli-n.github.io/domestic-accessories/pics/basha5.png") {
+		document.getElementById("bb-img").src = "https://frankli-n.github.io/domestic-accessories/pics/basha6.png"
 	}
 
-	else if (document.getElementById("bb-img").src == "http://localhost:3000/pics/basha6.png") {
-		document.getElementById("bb-img").src = "http://localhost:3000/pics/basha7.png"
+	else if (document.getElementById("bb-img").src == "https://frankli-n.github.io/domestic-accessories/pics/basha6.png") {
+		document.getElementById("bb-img").src = "https://frankli-n.github.io/domestic-accessories/pics/basha7.png"
 	}
 
 	else {
-		document.getElementById("bb-img").src = "http://localhost:3000/pics/d.png"
+		document.getElementById("bb-img").src = "https://frankli-n.github.io/domestic-accessories/pics/d.png"
 	}
 }
 
 function changeDudesWithoutProblems(){
 	console.log(document.getElementById("dwp-img").src)
-	if (document.getElementById("dwp-img").src == "http://localhost:3000/pics/e.png") {
-		document.getElementById("dwp-img").src = "http://localhost:3000/pics/dwp2.png"
+	if (document.getElementById("dwp-img").src == "https://frankli-n.github.io/domestic-accessories/pics/e.png") {
+		document.getElementById("dwp-img").src = "https://frankli-n.github.io/domestic-accessories/pics/dwp2.png"
 	}
 	else {
-		document.getElementById("dwp-img").src = "http://localhost:3000/pics/e.png"
+		document.getElementById("dwp-img").src = "https://frankli-n.github.io/domestic-accessories/pics/e.png"
 	}
 }
 
 function changeSession(){
 	console.log(document.getElementById("sss-img").src)
-	if (document.getElementById("sss-img").src == "http://localhost:3000/pics/session.png") {
-		document.getElementById("sss-img").src = "http://localhost:3000/pics/session2.png"
+	if (document.getElementById("sss-img").src == "https://frankli-n.github.io/domestic-accessories/pics/session.png") {
+		document.getElementById("sss-img").src = "https://frankli-n.github.io/domestic-accessories/pics/session2.png"
 	}
 	else {
-		document.getElementById("sss-img").src = "http://localhost:3000/pics/session.png"
+		document.getElementById("sss-img").src = "https://frankli-n.github.io/domestic-accessories/pics/session.png"
 	}
 }
 
 function changeFuccboi(){
 	console.log(document.getElementById("fcb-img").src)
-	if (document.getElementById("fcb-img").src == "http://localhost:3000/pics/fuccboi.png") {
-		document.getElementById("fcb-img").src = "http://localhost:3000/pics/fuccboi2.png"
+	if (document.getElementById("fcb-img").src == "https://frankli-n.github.io/domestic-accessories/pics/fuccboi.png") {
+		document.getElementById("fcb-img").src = "https://frankli-n.github.io/domestic-accessories/pics/fuccboi2.png"
 	}
 	else {
-		document.getElementById("fcb-img").src = "http://localhost:3000/pics/fuccboi.png"
+		document.getElementById("fcb-img").src = "https://frankli-n.github.io/domestic-accessories/pics/fuccboi.png"
 	}
 }
 
 function changeVoyageur(){
 	console.log(document.getElementById("vyg-img").src)
-	if (document.getElementById("vyg-img").src == "http://localhost:3000/pics/voyageur.png") {
-		document.getElementById("vyg-img").src = "http://localhost:3000/pics/voyageur2.png"
+	if (document.getElementById("vyg-img").src == "https://frankli-n.github.io/domestic-accessories/pics/voyageur.png") {
+		document.getElementById("vyg-img").src = "https://frankli-n.github.io/domestic-accessories/pics/voyageur2.png"
 	}
 	else {
-		document.getElementById("vyg-img").src = "http://localhost:3000/pics/voyageur.png"
+		document.getElementById("vyg-img").src = "https://frankli-n.github.io/domestic-accessories/pics/voyageur.png"
 	}
 }
