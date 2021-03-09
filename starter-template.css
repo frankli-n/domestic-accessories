@@ -1,3 +1,6 @@
+* {
+  transition: all 1s;
+} 
 body {
   padding-top: 5rem;
   background: #111;
